@@ -8,7 +8,7 @@ export const Forgot = () => {
     const fetchDataBackend = useFetch()
 
     const sendMail = async (dataForm) => {
-        const url = `${import.meta.env.VITE_BACKEND_URL}/actualizarpassword`
+        const url = `${import.meta.env.VITE_BACKEND_URL}/recuperarpassword`
         await fetchDataBackend(url, dataForm, "POST")
     }
     return (
