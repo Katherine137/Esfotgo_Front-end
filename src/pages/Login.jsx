@@ -84,7 +84,6 @@ const Login = () => {
                     <div className="mt-3 flex justify-between text-sm">
                         <Link to="/forgot/id" className="text-neutral-950 hover:text-blue-900 font-medium">  ¿Olvidaste tu contraseña? </Link>
                         <Link to="/" className="text-neutral-950 hover:text-blue-900 font-medium">Hogar</Link>
-                        <Link to="/dashboard" className="text-neutral-950">dash</Link>
                     </div>
                     <br />
                     <div className="flex justify-center">
