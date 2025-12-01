@@ -11,7 +11,7 @@ export const Register = () => {
     const { register, handleSubmit, formState: { errors } } = useForm()
 
     const registerUser = async (dataForm) =>{
-        const url = `${import.meta.env.VITE_BACKEND_URL}/registro`
+        const url = `${import.meta.env.VITE_BACKEND_URL}/api/registro`
         await fetchDataBackend(url, dataForm, "POST")
     }
 
