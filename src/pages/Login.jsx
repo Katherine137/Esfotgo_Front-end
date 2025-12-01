@@ -14,7 +14,7 @@ const Login = () => {
     const { setToken, setRol } = storeAuth()
 
     const loginUser = async(dataForm) =>{
-        const url = `${import.meta.env.VITE_BACKEND_URL}/login`
+        const url = `${import.meta.env.VITE_BACKEND_URL}/api/login`
         const response = await fetchDataBackend(url, dataForm, "POST")
         setToken(response.token)
         setRol(response.Rol)
