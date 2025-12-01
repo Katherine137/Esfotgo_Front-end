@@ -49,7 +49,7 @@ export const Forgot = () => {
                 </div>
             </div>
 
-            <div className="hidden sm:block sm:w-1/2 bg-[url('./assets/buho.png')] bg-cover bg-center"></div>
+            <div className="hidden sm:block sm:w-1/2 bg-[url('/buho.png')] bg-cover bg-center"></div>
         </div>
     )
 }
